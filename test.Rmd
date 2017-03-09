@@ -2,10 +2,6 @@
 title: "LoanPredictions"
 author: "Manish Sihag"
 date: "March 9, 2017"
-output:
-  html_document: default
-  pdf_document: default
-  word_document: default
 ---
 ```{r}
 train = read.csv("train.txt", sep = ",", header = T, na.strings = c("", NA))
