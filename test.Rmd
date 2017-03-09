@@ -1,0 +1,11 @@
+---
+title: "LoanPredictions"
+author: "Manish Sihag"
+date: "March 9, 2017"
+output: html_document
+---
+```{r}
+train = read.csv("train.txt", sep = ",", header = T, na.strings = c("", NA))
+test = read.csv("test.txt", sep = ",", header = T, na.strings = c("", NA))
+summary(train)
+```
